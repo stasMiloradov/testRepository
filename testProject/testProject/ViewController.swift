@@ -8,11 +8,30 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let myButton = UIButton()
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let button = UIButton()
+        button.frame = view.bounds
+        button.backgroundColor = UIColor.yellow
+        view.addSubview(button)
+        button.setTitle("number 1", for: .normal)
+        button.setTitleColor(UIColor.black, for: UIControl.State.normal)
+        
+        
+        
+        
+        
+        
+        
     }
+    
+    
 
 
 }
